@@ -5,6 +5,13 @@ All comands past in your terminal step by step
 ## Install pre-clint
 
 Firstly need pre-clinet for operating with ur wallet : balance,tx,encrypt,decrypt etc.
+
+1.Go to octra repository https://github.com/octra-labs/octra_pre_client 
+
+2.Look a green bottom " **Code** " , u need " **Codespace** " 
+
+3.Create own codesapce
+
 ```
 1. git clone https://github.com/octra-labs/octra_pre_client.git
 2. cd octra_pre_client
