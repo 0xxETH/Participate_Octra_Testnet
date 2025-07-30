@@ -1,1 +1,85 @@
 # Participate_Octra_Testnet
+
+All comands past in your terminal step by step
+
+## Install pre-clint
+
+Firstly need pre-clinet for operating with ur wallet : balance,tx,encrypt,decrypt etc.
+```
+1. git clone https://github.com/octra-labs/octra_pre_client.git
+2. cd octra_pre_client
+3. python3 -m venv venv
+4. source venv/bin/activate
+5. pip install -r requirements.txt
+6. cp wallet.json.example wallet.json
+```
+
+## Generate Wallet
+
+> [!CAUTION] 
+> All info from wallet generate file save in secure!
+
+### To generate wallet past this comand in terminal
+```
+1.curl -fsSL https://octra.org/wallet-generator.sh | bash
+```
+After succes look at " **Ports** " or follow link in terminal
+
+Press generate wallet bottom , write ur data.
+
+### After generate 
+
+Go to wallet.json file and replase : 
+
+- Private key
+- Adress 
+
+Save file Ctr + S
+
+```
+{
+  "priv": "private key here",
+  "addr": "octxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "rpc": "https://octra.network"
+}
+```
+
+## Operation with wallet
+
+To run some GUI past this comand in terminal 
+
+```
+./run.sh
+```
+
+Dont panic when see blue screen . It is what it is.
+
+For governent wallet use number on keyboards and Enter
+
+### Send tx 
+
+```
+1.Write " 1 " on terminal + Enter 
+```
+```
+2.Paste anyone adress 
+Use my : octF7hE8cQLzSKnhd8CVt75Ydu9GBjLR4vDFgRKCkyXqmG5
+```
+
+```
+3.Write an amout what u like send + Enter
+```
+```
+4.U can add some message + Enter . For skip just Enter
+```
+```
+5.Confirm transaction input y or n for reject.
+```
+## Faucet : 
+[https://oct-faucet.xme.my.id/]([url](https://oct-faucet.xme.my.id/))
+[https://faucet.octra.network]([url](https://faucet.octra.network))
+
+
+
+
+
