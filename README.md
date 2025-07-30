@@ -12,6 +12,8 @@ Firstly need pre-clinet for operating with ur wallet : balance,tx,encrypt,decryp
 
 3.Create own codesapce
 
+**OR** open windows terminal with Windows + R > cmd + Enter
+
 ```
 1. git clone https://github.com/octra-labs/octra_pre_client.git
 2. cd octra_pre_client
